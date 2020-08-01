@@ -7,44 +7,10 @@
   url('//at.alicdn.com/t/font_679578_dishi1yoavm.svg?t=1544347866779#iconfont') format('svg'); /* iOS 4.1- */
 }
 
-@font-face {
-  font-family: 'AveriaLibre-LightItalic';
-  src: url('https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.69/fonts/AveriaLibre-LightItalic.ttf');
-}
-
-@font-face {
-  font-family: 'heartandsoul';
-  src: url('https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.69/fonts/heartandsoul.otf');
-}
-
-@font-face {
-  font-family: 'AaZuiMeiDeShiShiNi-2';
-  src: url('https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.69/fonts/AaZuiMeiDeShiShiNi-2.ttf');
-}
-
-@font-face {
-  font-family: 'ADayInAutumn';
-  src: url('https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.69/fonts/ADayInAutumn.ttf');
-}
-
-@font-face {
-  font-family: 'Angelique-Rose-FFP';
-  src: url('https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.69/fonts/Angelique-Rose-FFP.otf');
-}
 
 @font-face {
   font-family: 'Caleigh';
   src: url('https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.69/fonts/Caleigh.otf');
-}
-
-@font-face {
-  font-family: 'Roseonly';
-  src: url('https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.69/fonts/Roseonly.ttf');
-}
-
-@font-face {
-  font-family: 'Self-Deception-2';
-  src: url('https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.69/fonts/Self-Deception-2.ttf');
 }
 
 @font-face {
@@ -55,11 +21,6 @@
 @font-face {
   font-family: 'AnnaClara';
   src: url('https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.69/fonts/AnnaClara.otf');
-}
-
-@font-face {
-  font-family: 'Every-Freakin-Night-1';
-  src: url('https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.69/fonts/Every-Freakin-Night-1.ttf');
 }
 
 .iconfont {
