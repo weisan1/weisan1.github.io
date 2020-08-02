@@ -2558,8 +2558,9 @@ h1.page-title.mb- {
     text-transform:none
 }
 .author-profile .meta h3 a {
-    font-size:18px;
-    font-weight:400;
+    font-family: 'Caleigh';
+    font-size: 25px;
+    font-weight:900;
     line-height:normal;
     letter-spacing:1px;
     color:#ababab
