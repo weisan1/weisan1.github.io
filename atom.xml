@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://eutopun.gitee.io/"/>
+  <link href="/"/>
   <updated>2020-08-02T04:13:47.872Z</updated>
-  <id>http://eutopun.gitee.io/</id>
+  <id>/</id>
   
   <author>
     <name>Eutopun</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>起航</title>
-    <link href="http://eutopun.gitee.io/2020/08/01/%E8%B5%B7%E8%88%AA/"/>
-    <id>http://eutopun.gitee.io/2020/08/01/起航/</id>
+    <link href="/2020/08/01/%E8%B5%B7%E8%88%AA/"/>
+    <id>/2020/08/01/起航/</id>
     <published>2020-08-01T13:19:20.000Z</published>
     <updated>2020-08-02T04:13:47.872Z</updated>
     
@@ -35,17 +35,17 @@
     
     </summary>
     
-      <category term="随想" scheme="http://eutopun.gitee.io/categories/%E9%9A%8F%E6%83%B3/"/>
+      <category term="随想" scheme="/categories/%E9%9A%8F%E6%83%B3/"/>
     
     
-      <category term="生活" scheme="http://eutopun.gitee.io/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
   <entry>
     <title>原文章样本</title>
-    <link href="http://eutopun.gitee.io/2018/12/12/Hexo-Theme-Sakura/"/>
-    <id>http://eutopun.gitee.io/2018/12/12/Hexo-Theme-Sakura/</id>
+    <link href="/2018/12/12/Hexo-Theme-Sakura/"/>
+    <id>/2018/12/12/Hexo-Theme-Sakura/</id>
     <published>2018-12-12T14:16:01.000Z</published>
     <updated>2020-08-02T04:05:32.831Z</updated>
     
@@ -55,10 +55,10 @@
     
     </summary>
     
-      <category term="技术" scheme="http://eutopun.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="hexo" scheme="http://eutopun.gitee.io/tags/hexo/"/>
+      <category term="hexo" scheme="/tags/hexo/"/>
     
   </entry>
   
