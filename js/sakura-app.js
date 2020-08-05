@@ -1765,3 +1765,7 @@ $(document).ready(function () {
 // if (document.body.clientWidth > 860) {
 //     aplayerF();
 // }
+
+$('#centerbg').css({
+  'height': screen.height,
+})

@@ -3878,7 +3878,7 @@ li.feature-2 {
     content:'';
     width:150%;
     height:4.375rem;
-    background:#fff;
+    background:transparent;
     left:-25%;
     bottom:-2.875rem;
     border-radius:100%;
@@ -3911,7 +3911,8 @@ li.feature-2 {
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-size:cover;
-    z-index:-1
+    z-index:-1;
+    background-position: center
 }
 @media(max-width:560px) {
     #bgvideo {
@@ -3938,6 +3939,11 @@ li.feature-2 {
 @media(max-width:607px) {
     .header-info {
         width: 55% !important;
+    }
+}
+@media(max-width:475px) {
+    .header-info {
+        width: 70% !important;
     }
 }
 #bgvideo {
