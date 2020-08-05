@@ -3943,7 +3943,7 @@ li.feature-2 {
 }
 @media(max-width:475px) {
     .header-info {
-        width: 70% !important;
+        width: 80% !important;
     }
 }
 #bgvideo {
