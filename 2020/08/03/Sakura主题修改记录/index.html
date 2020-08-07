@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">archive_a: 2020 | Eutopun</title>
+  <title itemprop="name">Sakura主题修改记录(一) | Eutopun</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -290,78 +290,358 @@
   </div>
 </header>
 
-      <div class="blank" style="padding-top: 75px;">
-</div>
-<div id="content" class="site-content">
-  <div id="main">
-    <header class="page-header">
-      <h1 class="cat-title">
-      归档</h1>
-      <span class="cat-des">
-        <p>
-        Archives</p>
-      </span>
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+<div class="pattern-center-blank"></div>
+
+  <div class="pattern-center single-center">
+    <!-- 有配图默认渲染第一张 -->
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://cdn.jsdelivr.net/gh/Eutopun/myPic/img/Sakura修改记录.jpg);" src="https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.80/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/Eutopun/myPic/img/Sakura修改记录.jpg">
+    </div>
+    <header class="pattern-header single-header">
+      <h1 class="entry-title">
+      Sakura主题修改记录(一)</h1>
+      <p class="entry-census">
+        <span>
+          <a href="www.Eutopun.top">
+            <img src="https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.80/img/custom/avatar.jpg">
+          </a>
+        </span>
+        <span>
+          <a href="www.Eutopun.top">Eutopun</a>
+        </span>
+        <span class="bull">
+        ·</span>
+        2020-8-3<span class="bull">
+        ·</span>
+      <span id="busuanzi_value_page_pv"></span>次阅读</p>
     </header>
-    <div id="main-part">
-      <article class="art">
-        <div class="art-main">
-          <div class="art-content">
-            <div id="archives">
-              <p style="text-align:right;">
-                [<span id="al_expand_collapse" style="cursor: s-resize;">
-                全部展开/收缩</span>
-              ]</p>
-              
-              
-              
-              
-              
-                
-                <h3 class="al_year">2020年</h3>
-              
-              
-                
-                <ul class="al_mon_list">
-                  <li class="al_li">
-                    <span class="al_mon" style="cursor: s-resize;">
-                      08月(<span id="post-num">
-                      3</span>
-                    篇文章)</span>
-                    <ul class="al_post_list" style="">
-              
-                      <li>
-                        <a href="/2020/08/03/Sakura主题修改记录/">
-                          <span style="color:#0bf;">
-                          03日10:23:28</span>
-                          Sakura主题修改记录(一)
-                        </a>
-                      </li>
-                      
-              
-              
-              
-              
-              
-                      <li>
-                        <a href="/2020/08/01/起航/">
-                          <span style="color:#0bf;">
-                          01日21:19:20</span>
-                          起航
-                        </a>
-                      </li>
-                      
-                    </ul>
-                  </li>
-                </ul>
-              
-              
+  </div>
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+        <div class="entry-content">
+          
+
+<meting-js server="netease" type="song" id="1436614177" mutex="true">
+</meting-js>
+
+
+<h1 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h1><p>该博文记录Sakura主题的修改过程，包括了对Sakura主题主要文件的解析、博客使用插件的代码和使用说明，以及对Sakura主题html文件和css文件的修改，并分享修改博客过程中可能会使用到的网站。建议在了解基础的html、css、javascript的前提下修改html文件和css文件。</p>
+<h1 id="修改详情"><a href="#修改详情" class="headerlink" title="修改详情"></a>修改详情</h1><h2 id="文件目录及内容"><a href="#文件目录及内容" class="headerlink" title="文件目录及内容"></a>文件目录及内容</h2><p>themes\Sakura\layout文件夹  ——  存放Sakura主题的ejs文件，确定了主题的网页结构</p>
+<ul>
+<li>archive.ejs —— 归档界面</li>
+<li>bangumi.ejs —— 番剧界面</li>
+<li>category.ejs —— 分类目录界面</li>
+<li>donate.ejs —— 赞赏界面</li>
+<li>index.ejs —— 首页</li>
+<li>layout.ejs —— 默认布局</li>
+<li>links.ejs —— 友链</li>
+<li>page.ejs —— 分页默认界面（修改分页界面在_widget文件夹下的common-page.ejs文件中）</li>
+<li>post.ejs —— 文章默认界面（修改文章默认界面在_widget文件夹下的common-article.ejs文件中）</li>
+<li>tag.ejs —— 标签目录界面</li>
+<li><p>_widget文件夹</p>
+<ul>
+<li>category-items.ejs —— 分类和标签目录界面的文章块</li>
+<li>common-article.ejs —— 文章默认界面</li>
+<li>common-page.ejs —— 分页默认界面</li>
+<li>index-items.ejs —— 首页文章块</li>
+</ul>
+</li>
+<li><p>_partial文件夹</p>
+<ul>
+<li>aplayer.ejs —— 播放器</li>
+<li>category-archive.ejs —— 分类标签目录界面组成部分</li>
+<li>comment.ejs —— 留言板</li>
+<li>footer.ejs —— 网页尾部</li>
+<li>head.ejs —— head部分</li>
+<li>header.ejs —— 博客的导航框</li>
+<li>headtop.ejs —— 首页封面界面</li>
+<li>mheader.ejs —— 手机端导航框</li>
+<li>startdash.ejs —— 首页start:dash板块</li>
+</ul>
+</li>
+</ul>
+<p>themes\Sakura\source文件夹  ——  存放Sakura主题的css文件和js文件，修饰网页和动态效果</p>
+<ul>
+<li>botui.js —— 关于我的页面的对话效果</li>
+<li>sakura-app.js —— Sakura的动态效果</li>
+<li>font.css —— 设置网页字体和图标</li>
+<li>style.css —— Sakura主题样式</li>
+</ul>
+<h2 id="基础修改"><a href="#基础修改" class="headerlink" title="基础修改"></a>基础修改</h2><ol>
+<li>通过hexo s本地博客预览，使用浏览器中的开发者工具（F12）选择想要修改的基础元素根据所属板块在上文的文件目录寻找对应的文件。如果是修改元素的css样式可以在开发者工具的Styles栏中元素右上角有对应的文件名和对应行数。</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/Eutopun/myPic/hexo/1.png" alt></p>
+<ol start="2">
+<li>推荐使用Visual Studio Code软件进行修改，找到需要修改的文件使用查找功能（Ctrl+F）能够快速定位目标位置。</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/Eutopun/myPic/hexo/2.png" alt></p>
+<p>通过以上两步便可以简单对Sakura的主题进行细节方面的修改。</p>
+<h2 id="字体修改"><a href="#字体修改" class="headerlink" title="字体修改"></a>字体修改</h2><ol>
+<li><p>下载字体文件，放在博客存放字体的文件夹中。</p>
+</li>
+<li><p>在font.css文件中插入代码。</p>
+<pre><code class="css">@font-face {
+  font-family: &#39;Caleigh&#39;;        /* 字体名字 */
+  src: url(&#39;https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.69/fonts/Caleigh.otf&#39;); /* 存放在CDN中的fonts文件夹中的字体文件路径 */
+}
+</code></pre>
+</li>
+</ol>
+<p>英文字体网推荐：<a href="http://font.chinaz.com/yingwenziti_3.html" target="_blank" rel="noopener">站长素材网</a></p>
+<h2 id="FontAwesome图标修改"><a href="#FontAwesome图标修改" class="headerlink" title="FontAwesome图标修改"></a>FontAwesome图标修改</h2><ul>
+<li>如果在修改FontAwesome图标过程中出现更换图标Unicode后，图标没有发生变化，可以尝试下该修改方式</li>
+</ul>
+<pre><code class="css">.icon-search:before {
+  font-family: &#39;FontAwesome&#39;;
+  content: &quot;\f002&quot;;
+  font-weight: 900;
+}
+</code></pre>
+<ul>
+<li><p>导航框上的图标动画修改需要在主题配置文件中添加动画效果名称并在对应元素加上animated-hover。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Eutopun/myPic/hexo/3.png" alt></p>
+</li>
+</ul>
+<h2 id="播放器图标"><a href="#播放器图标" class="headerlink" title="播放器图标"></a>播放器图标</h2><ol>
+<li><p>在APlayer.min.js文件中（原文件导入Aplayer.min.js默认是来自官网，需要重新设置Aplayer.min.js文件的访问路径），通过查找 ‘svg’ 标签定位Aplayer播放器的按钮图标，把svg图标放在新建html文件中可以确认图标</p>
+</li>
+<li><p>图标可以在<a href="https://www.iconfont.cn/" target="_blank" rel="noopener">Iconfont-阿里巴巴矢量图标库</a>中进行选择</p>
+</li>
+<li><p>夜间模式时，播放器的按钮图标有阴影残留，删除对应的box-shadow</p>
+</li>
+<li><p>播放器底部歌词显示框可调成透明，在style.css文件中添加如下代码</p>
+<pre><code class="css">.aplayer.aplayer-fixed .lrc-show{
+    background: transparent !important;
+}
+</code></pre>
+</li>
+</ol>
+<h2 id="文章底部时间"><a href="#文章底部时间" class="headerlink" title="文章底部时间"></a>文章底部时间</h2><p>在footer.ejs文件底部插入代码（我插入在<div class="footer-device"></div>之间）</p>
+<pre><code class="ejs">&lt;span id=&quot;timeDate&quot;&gt;&lt;/span&gt;
+&lt;span id=&quot;times&quot;&gt;&lt;/span&gt;
+&lt;script&gt;
+    var now = new Date();
+    function createtime() {
+        var grt= new Date(&quot;08/2/2020 09:44:00&quot;);//此处修改时间（月/日/年 时:分:秒）
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+        if(String(hnum).length ==1 ){hnum = &quot;0&quot; + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = &quot;0&quot; + mnum;}
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = &quot;0&quot; + snum;}
+        document.getElementById(&quot;timeDate&quot;).innerHTML = &quot;本站已在核爆之前苟活了 &quot;+dnum+&quot; 天 &quot;;
+        document.getElementById(&quot;times&quot;).innerHTML = hnum + &quot; 小时 &quot; + mnum + &quot; 分 &quot; + snum + &quot; 秒&quot;;
+    }
+    setInterval(&quot;createtime()&quot;,250);
+&lt;/script&gt;
+</code></pre>
+<h2 id="删除右下视频播放"><a href="#删除右下视频播放" class="headerlink" title="删除右下视频播放"></a>删除右下视频播放</h2><font color="#ee3f4d">建议将代码注释，说不定以后想用</font>
+
+<ol>
+<li>themes\Sakura\_config.yml注释以下代码段</li>
+</ol>
+<pre><code class="yml"># 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
+# movies:
+#   url: https://cdn.jsdelivr.net/gh/honjun/hojun@1.2
+#   多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
+#   name: Unbroken.mp4
+</code></pre>
+<ol start="2">
+<li>themes\Sakura\layout\_partial\footer.ejs删除“movies”键值对</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/Eutopun/myPic/hexo/4.png" alt></p>
+<pre><code class="ejs">以后需要视频播放可复制:
+&quot;movies&quot;:{&quot;url&quot;: &quot;&lt;%- theme.movies.url %&gt;&quot;,&quot;name&quot;:&quot;&lt;%- theme.movies.name%&gt;&quot;,&quot;live&quot;:&quot;close&quot;}
+
+&quot;movies&quot;:{&quot;url&quot;: &quot;&lt;%- theme.movies.url %&gt;&quot;,&quot;name&quot;:&quot;&lt;%- theme.movies.name%&gt;&quot;,&quot;live&quot;:&quot;open&quot;},
+</code></pre>
+<ol start="3">
+<li>themes\Sakura\source\js\sakura-app.js分别注释以下代码段</li>
+</ol>
+<pre><code class="js">从 splay 到 LV 全部注释
+// splay: function () {
+    //   $(&#39;#video-btn&#39;).addClass(&#39;video-pause&#39;).removeClass(&#39;video-play&#39;).show()
+    //   $(&#39;.video-stu&#39;).css({
+    //     &#39;bottom&#39;: &#39;-100px&#39;
+    //   })
+    //   $(&#39;.focusinfo&#39;).css({
+    //     &#39;top&#39;:
+            • 
+            •
+            •
+        //     s.onended = function () {
+    //       $(&#39;#bgvideo&#39;).attr(&#39;src&#39;, &#39;&#39;)
+    //       $(&#39;#video-add&#39;).hide()
+    //       _btn.addClass(&#39;loadvideo&#39;).removeClass(&#39;video-pause&#39;)
+    //       _btn.removeClass(&#39;videolive&#39;)
+    //       _btn.removeClass(&#39;haslive&#39;)
+    //       $(&#39;.focusinfo&#39;).css({
+    //         &#39;top&#39;: &#39;49.3%&#39;
+    //       })
+    //     }
+    //   })
+    //   $(&#39;#video-add&#39;).on(&#39;click&#39;, function () {
+    //     Siren.addsource()
+    //   })
+    // },
+</code></pre>
+<pre><code class="js">注释零散的部分（可直接通过查找定位）
+// if (Poi.movies.live == &#39;open&#39;) Siren.liveplay()
+// Siren.livepause()
+// Siren.LV()
+</code></pre>
+<ol start="4">
+<li>css部分如果需要删除，可自行根据上文的基础修改进行更改</li>
+</ol>
+<h3 id="网页侧边栏（黑夜模式、音乐、留言板）"><a href="#网页侧边栏（黑夜模式、音乐、留言板）" class="headerlink" title="网页侧边栏（黑夜模式、音乐、留言板）"></a>网页侧边栏（黑夜模式、音乐、留言板）</h3><p><a href="https://blog.csdn.net/cungudafa/article/details/106500877" target="_blank" rel="noopener">感谢cungudafa大佬的实现，我只是知识的搬运工</a></p>
+<h2 id="一言"><a href="#一言" class="headerlink" title="一言"></a>一言</h2><p>可以在<a href="https://developer.hitokoto.cn/" target="_blank" rel="noopener">一言官网</a>中选择喜欢的分类，感谢一言团队的创作和开源分享</p>
+<pre><code class="html">&lt;div class=&quot;entry-content&quot;&gt;
+  &lt;div class=&quot;poem-wrap&quot;&gt;
+    &lt;div class=&quot;poem-border poem-left&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;poem-border poem-right&quot;&gt;
+    &lt;/div&gt;
+    &lt;h1&gt;
+    一言&lt;/h1&gt;
+    &lt;p id=&quot;hitokoto&quot;&gt;:D 获取中...&lt;/p&gt;
+    &lt;p align=&quot;right&quot; id=&quot;afrom&quot;&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- 现代写法，推荐(不支持 IE) --&gt;
+&lt;script&gt;
+  fetch(&#39;https://v1.hitokoto.cn/?c=b&amp;c=c&amp;c=d&amp;c=h&amp;c=i&amp;c=j&amp;c=k&#39;)
+    .then(response =&gt; response.json())
+    .then(data =&gt; {
+      const hitokoto = document.getElementById(&#39;hitokoto&#39;)
+      const afrom = document.getElementById(&#39;afrom&#39;)
+      hitokoto.innerText = data.hitokoto
+      afrom.innerText = &#39;——【&#39; + data.from + &#39;】&#39;;
+    })
+    .catch(console.error)
+&lt;/script&gt;
+</code></pre>
+<p>注释原先的诗歌两首的js内容</p>
+<pre><code class="js">1.
+// function get_poem (poem_ele, info_ele) {
+//   var poem = document.querySelector(poem_ele)
+//   var info = document.querySelector(info_ele)
+//   var xhr = new XMLHttpRequest()
+//   xhr.open(&#39;get&#39;, &#39;https://v2.jinrishici.com/one.json&#39;)
+//   xhr.withCredentials = true
+//   xhr.onreadystatechange = function () {
+//     if (xhr.readyState === 4) {
+//       var data = JSON.parse(xhr.responseText)
+//       poem.innerHTML = data.data.content
+//       info.innerHTML = &#39;【&#39; + data.data.origin.dynasty + &#39;】&#39; + data.data.origin.author + &#39;《&#39; + data.data.origin.title + &#39;》&#39;
+//     }
+//   }
+//   xhr.send()
+// }
+2，3.
+// if ($(&#39;div&#39;).hasClass(&#39;poem-wrap&#39;)) {
+//   get_poem(&#39;#poem&#39;, &#39;#info&#39;)
+// }
+</code></pre>
+<h1 id="资源分享"><a href="#资源分享" class="headerlink" title="资源分享"></a>资源分享</h1><ul>
+<li><p>壁纸：<a href="https://www.dynamicwallpaper.club/gallery" target="_blank" rel="noopener">Gallery</a>，<a href="https://wallhaven.cc/" target="_blank" rel="noopener">Wallhaven</a>，<a href="https://wallpaperscraft.com/" target="_blank" rel="noopener">WallpapersCraft</a>，<a href="https://wall.alphacoders.com/" target="_blank" rel="noopener">Abyss</a></p>
+</li>
+<li><p>字体：<a href="http://font.chinaz.com/yingwenziti_3.html" target="_blank" rel="noopener">站长素材网</a></p>
+</li>
+<li><p>图标：<a href="https://www.iconfont.cn/" target="_blank" rel="noopener">阿里巴巴矢量图标库</a>，<a href="http://www.fontawesome.com.cn/" target="_blank" rel="noopener">FontAwesome</a></p>
+</li>
+<li>颜色：<a href="http://zhongguose.com/#cujiangcaohong" target="_blank" rel="noopener">中国风</a>，<a href="https://uigradients.com/#Delicate" target="_blank" rel="noopener">渐变色</a>，<a href="https://webgradients.com/" target="_blank" rel="noopener">多彩</a></li>
+<li>图片格式转换：<a href="https://convertio.co/zh/" target="_blank" rel="noopener">Convertio!!!!真的好用</a></li>
+</ul>
+<h1 id="欢迎留言"><a href="#欢迎留言" class="headerlink" title="欢迎留言"></a>欢迎留言</h1><p>第一篇文章，如果对文章存疑或者文章有错误，衷心的希望能在留言板中指出或留下足迹，在确认其真实性后，会对文章进行修改，力求做到严谨地对待技术！！！</p>
+
+        </div>
+        <!-- .entry-content -->
+        <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.80/img/donate/AliPay.png"></li>
+                <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.80/img/donate/WeChatPay.png"></li>
+              </ul>
             </div>
           </div>
         </div>
+        <!-- <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div> -->
+        <footer class="post-footer">
+          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
       </article>
-    </div>
-  </div>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+        
+          
+            <div class="post-nepre full next">
+          
+            <a href="/2020/08/01/起航/" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.80/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/Eutopun/myPic/img/699952.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/Eutopun/myPic/img/699952.jpg">
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                起航</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
+      
+<div id="vcomments"></div>
+<script>
+  window.onload = function(){
+      var valine = new Valine();
+      valine.init({
+        el: '#vcomments',
+        appId: "hRmz567rJlemah82nVchcyuN-MdYXbMMI",
+        appKey: "EJDElLTkGAuo9JRdR8v8K6HY",
+        path: window.location.pathname,
+        placeholder: "你是我一生只会遇见一次的惊喜 ..."
+      })
+  }
+</script>
+
+      <section class="author-profile">
+        <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+          <a href="www.Eutopun.top" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.80/img/custom/avatar.jpg" itemprop="image" alt="Eutopun" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href="www.Eutopun.top" itemprop="url" rel="author">Eutopun</a>
+            </h3>
+          </div>
+        </div>
+        <hr>
+        <p><i class="iconfont icon-write"></i>如果以后再也见不到你，那祝你早安，午安，晚安。</p>
+      </section>
+    </main><!-- #main -->
+  </div><!-- #primary -->
 </div>
+
+
 
     </div>    
     <div class="ins-search">

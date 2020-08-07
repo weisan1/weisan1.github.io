@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2020-08-05T06:05:53.549Z</updated>
+  <updated>2020-08-07T13:25:54.836Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Sakura主题修改记录(一)</title>
+    <link href="/2020/08/03/Sakura%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9%E8%AE%B0%E5%BD%95/"/>
+    <id>/2020/08/03/Sakura主题修改记录/</id>
+    <published>2020-08-03T02:23:28.000Z</published>
+    <updated>2020-08-07T13:25:54.836Z</updated>
+    
+    <summary type="html">
+    
+      关于HEXO的Sakura主题的修改记录
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="hexo主题" scheme="/tags/hexo%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
   
   <entry>
     <title>起航</title>
