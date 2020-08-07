@@ -36,8 +36,8 @@
   mashiro_option.site_name = "Eutopun's Blog";
   mashiro_option.author_name = "";
   mashiro_option.site_url = "https://Eutopun.github.io";
-  mashiro_option.v_appId = "6Sn1gcrfDJlzgUG9l2vJcezV-gzGzoHsz";
-  mashiro_option.v_appKey = "B68gAxKikDDY5HibFnUsvEAE";
+  mashiro_option.v_appId = "hRmz567rJlemah82nVchcyuN-MdYXbMMI";
+  mashiro_option.v_appKey = "EJDElLTkGAuo9JRdR8v8K6HY";
   mashiro_option.mathjax = "0";
   mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
   mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
@@ -138,16 +138,16 @@
       </div>
     </div>
   </figure>
-  <div id="video-container" style="">
+  <!-- <div id="video-container" style="">
     <video style="object-fit: fill" id="bgvideo" class="video" video-name="" src="" width="auto" preload="auto">
     </video>
-    <!-- <div id="video-btn" class="loadvideo videolive">
+    <div id="video-btn" class="loadvideo videolive">
     </div>
     <div id="video-add">
     </div>
     <div class="video-stu">
-    </div> -->
-  </div>
+    </div>
+  </div> -->
   <div class="headertop-down faa-float animated" onclick="headertop_down()">
     <span>
       <i class="fa fa-chevron-down" aria-hidden="true">
@@ -313,22 +313,23 @@
     </div>
     <h1>
     一言</h1>
-	<p id="hitokoto"> 在不同的遭遇里我发现你的瞬间，有种不可言说的温柔直觉。 </p>
+	<p id="hitokoto">:D 获取中...</p>
     <p align="right" id="afrom">
     </p>
   </div>
 </div>
-<script>fetch('https://v1.hitokoto.cn').then(function(res){
-    return res.json();
-  }).then(function (data) {
-    var hitokoto = document.getElementById('hitokoto');
-    var afrom = document.getElementById('afrom');
-    hitokoto.innerText = data.hitokoto;
-    afrom.innerText =  '——【' + data.from + '】';
-  })
-  .catch(function (err) {
-    console.error(err);
-    })</script>
+<!-- 现代写法，推荐(不支持 IE) -->
+<script>
+  fetch('https://v1.hitokoto.cn/?c=b&c=c&c=d&c=h&c=i&c=j&c=k')
+    .then(response => response.json())
+    .then(data => {
+      const hitokoto = document.getElementById('hitokoto')
+      const afrom = document.getElementById('afrom')
+      hitokoto.innerText = data.hitokoto
+      afrom.innerText = '——【' + data.from + '】';
+    })
+    .catch(console.error)
+</script>
 
       <!-- .entry-content -->
       
@@ -338,8 +339,8 @@
       var valine = new Valine();
       valine.init({
         el: '#vcomments',
-        appId: "6Sn1gcrfDJlzgUG9l2vJcezV-gzGzoHsz",
-        appKey: "B68gAxKikDDY5HibFnUsvEAE",
+        appId: "hRmz567rJlemah82nVchcyuN-MdYXbMMI",
+        appKey: "EJDElLTkGAuo9JRdR8v8K6HY",
         path: window.location.pathname,
         placeholder: "你是我一生只会遇见一次的惊喜 ..."
       })
@@ -430,7 +431,7 @@
         <script>
           var now = new Date();
           function createtime() {
-            var grt= new Date("08/2/2020 09:44:00");//此处修改你的建站时间或者网站上线时间
+            var grt= new Date("08/02/2020 09:44:00");//此处修改你的建站时间或者网站上线时间
             now.setTime(now.getTime()+250);
             days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
             hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
@@ -469,9 +470,9 @@
 <script type="text/javascript">
 /* <![CDATA[ */
 if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-  var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2","name":"Unbroken.mp4","live":"close"},"windowheight":"fixed","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+  var Poi = {"pjax":"1","windowheight":"fixed","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
 } else {
-  var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2","name":"Unbroken.mp4","live":"open"},"windowheight":"auto","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+  var Poi = {"pjax":"1","windowheight":"auto","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
 }
 /* ]]> */
 

@@ -9,18 +9,18 @@
 
 
 @font-face {
-  font-family: 'Caleigh';
-  src: url('https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.69/fonts/Caleigh.otf');
+  font-family: 'Caleigh'; 
+  src: url('https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.81/fonts/Caleigh.otf');
 }
 
 @font-face {
   font-family: 'XinYeNianTi-2';
-  src: url('https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.69/fonts/XinYeNianTi-2.otf');
+  src: url('https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.81/fonts/XinYeNianTi-2.otf');
 }
 
 @font-face {
   font-family: 'AnnaClara';
-  src: url('https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.69/fonts/AnnaClara.otf');
+  src: url('https://cdn.jsdelivr.net/gh/Eutopun/CDN@v0.81/fonts/AnnaClara.otf');
 }
 
 .iconfont {

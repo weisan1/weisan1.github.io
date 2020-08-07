@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2020-08-04T02:43:55.866Z</updated>
+  <updated>2020-08-05T06:05:53.549Z</updated>
   <id>/</id>
   
   <author>
@@ -15,24 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Sakura主题修改记录(一)</title>
-    <link href="/2020/08/03/Sakura%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9%E8%AE%B0%E5%BD%95/"/>
-    <id>/2020/08/03/Sakura主题修改记录/</id>
-    <published>2020-08-03T02:23:28.000Z</published>
-    <updated>2020-08-04T02:43:55.866Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="hexo主题" scheme="/tags/hexo%E4%B8%BB%E9%A2%98/"/>
-    
-  </entry>
   
   <entry>
     <title>起航</title>
@@ -57,26 +39,6 @@
     
     
       <category term="生活" scheme="/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>原文章样本</title>
-    <link href="/2018/12/12/Hexo-Theme-Sakura/"/>
-    <id>/2018/12/12/Hexo-Theme-Sakura/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2020-08-02T04:05:32.831Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="hexo" scheme="/tags/hexo/"/>
     
   </entry>
   
