@@ -1,47 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Eutopun</title>
+  <title>森之寂</title>
   
-  
+  <subtitle>不给人添麻烦,但也全然不想与众人同乐。——《宿命》</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2020-08-09T02:14:01.986Z</updated>
+  <updated>2020-08-26T14:55:24.264Z</updated>
   <id>/</id>
   
   <author>
-    <name>Eutopun</name>
+    <name>zi hang</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Sakura主题修改记录(一)</title>
-    <link href="/2020/08/03/Sakura%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9%E8%AE%B0%E5%BD%95/"/>
-    <id>/2020/08/03/Sakura主题修改记录/</id>
-    <published>2020-08-03T02:23:28.000Z</published>
-    <updated>2020-08-09T02:14:01.986Z</updated>
-    
-    <summary type="html">
-    
-      关于HEXO的Sakura主题的修改记录
-    
-    </summary>
-    
-      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="hexo主题" scheme="/tags/hexo%E4%B8%BB%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
     <title>起航</title>
-    <link href="/2020/08/01/%E8%B5%B7%E8%88%AA/"/>
-    <id>/2020/08/01/起航/</id>
-    <published>2020-08-01T13:19:20.000Z</published>
-    <updated>2020-08-09T01:44:51.483Z</updated>
+    <link href="/2020/08/26/%E8%B5%B7%E8%88%AA/"/>
+    <id>/2020/08/26/起航/</id>
+    <published>2020-08-26T13:19:20.000Z</published>
+    <updated>2020-08-26T14:55:24.264Z</updated>
     
     <summary type="html">
     
@@ -49,7 +29,7 @@
       
         
         
-          &lt;h2 id=&quot;起航&quot;&gt;&lt;a href=&quot;#起航&quot; class=&quot;headerlink&quot; title=&quot;起航&quot;&gt;&lt;/a&gt;起航&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Eutopun/myPic/img/起航内容.webp&quot;
+          &lt;h2 id=&quot;起航&quot;&gt;&lt;a href=&quot;#起航&quot; class=&quot;headerlink&quot; title=&quot;起航&quot;&gt;&lt;/a&gt;起航&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/weisan1/CDN@v1.3/14.jpg&quot;
         
       
     
