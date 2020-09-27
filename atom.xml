@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>森之寂</title>
+  <title>心扬手语</title>
   
   <subtitle>不给人添麻烦,但也全然不想与众人同乐。——《宿命》</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2020-09-20T06:34:11.316Z</updated>
+  <updated>2020-09-27T10:55:22.020Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>最甜协会招人了！</title>
+    <link href="/2020/09/27/%E6%9C%80%E7%94%9C%E5%8D%8F%E4%BC%9A/"/>
+    <id>/2020/09/27/最甜协会/</id>
+    <published>2020-09-27T13:19:20.000Z</published>
+    <updated>2020-09-27T10:55:22.020Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+
+&lt;meting-js server=&quot;netease&quot; type=&quot;song&quot; id=&quot;1449678888&quot; mutex=&quot;true&quot;&gt;
+&lt;/meting-js&gt;
+
+
+&lt;h2 id=&quot;最甜协会-心扬手语协会纳新啦&quot;&gt;&lt;a href=&quot;#最甜协会-心扬手语协会纳新啦&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="随想" scheme="/categories/%E9%9A%8F%E6%83%B3/"/>
+    
+    
+      <category term="生活" scheme="/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>社团招募</title>
@@ -47,7 +79,7 @@
     <link href="/2020/09/20/%E6%96%B0%E7%94%9F%E5%85%A5%E5%AD%A6%E6%94%BB%E7%95%A5/"/>
     <id>/2020/09/20/新生入学攻略/</id>
     <published>2020-09-20T07:19:20.000Z</published>
-    <updated>2020-09-20T06:25:27.572Z</updated>
+    <updated>2020-09-27T03:03:46.810Z</updated>
     
     <summary type="html">
     
@@ -57,7 +89,7 @@
         
           
 
-&lt;meting-js server=&quot;netease&quot; type=&quot;song&quot; id=&quot;460578703&quot; mutex=&quot;true&quot;&gt;
+&lt;meting-js server=&quot;netease&quot; type=&quot;song&quot; id=&quot;29004400&quot; mutex=&quot;true&quot;&gt;
 &lt;/meting-js&gt;
 
 
